@@ -1,0 +1,70 @@
+# Core Bot Framework
+aiogram==3.4.1
+aiohttp==3.9.1
+python-dotenv==1.0.0
+
+# Database & Caching
+sqlalchemy[asyncio]==2.0.25
+asyncpg==0.29.0
+redis==5.0.1
+alembic==1.13.1
+
+# Data Analysis & Technical Indicators
+pandas==2.1.4
+numpy==1.26.3
+ta==0.11.0
+scipy==1.11.4
+
+# Stock Market Data Sources
+yfinance==0.2.36
+finnhub-python==2.4.19
+alpha-vantage==2.3.1
+
+# Task Scheduling & Background Jobs
+APScheduler==3.10.4
+celery==5.3.6
+
+# Data Validation
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# HTTP & Web Scraping
+requests==2.31.0
+beautifulsoup4==4.12.2
+feedparser==6.0.11
+
+# AI & NLP
+openai==1.10.0
+textblob==0.17.1
+vaderSentiment==3.3.2
+
+# Voice Generation
+gTTS==2.5.0
+
+# Utilities
+pytz==2024.1
+python-dateutil==2.8.2
+cachetools==5.3.2
+
+# Monitoring & Logging
+python-json-logger==2.0.7
+prometheus-client==0.19.0
+
+# Image & Chart Generation
+plotly==5.18.0
+kaleido==0.2.1
+matplotlib==3.8.2
+Pillow==10.2.0
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+
+# Code Quality
+black==24.1.1
+flake8==7.0.0
+mypy==1.8.0
+
+# Security
+cryptography==42.0.0
